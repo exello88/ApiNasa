@@ -3,7 +3,7 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-main{
+main {
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -46,7 +46,7 @@ main{
 .input__date{
     width: 200px;
     height: 30px;
-    margin: 0px 0px 0px 475px;
+    margin: 0px 0px 0px 460px;
     border: 1px solid;
     border-color: rgb(128, 128, 128);
 }
@@ -54,9 +54,10 @@ main{
     width: 1440px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .description__BlockImg{
-    width: 990px;
+    width: 730px;
     height: 500px;
     margin: 10px 10px 10px 10px;
     border: 3px solid;
