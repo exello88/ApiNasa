@@ -1,3 +1,4 @@
+const allMenuBtn = document.querySelector('.menu');
 let mainText = document.querySelector('.main__text');
 let description = document.querySelector('.description');
 const url = 'https://api.nasa.gov/';
