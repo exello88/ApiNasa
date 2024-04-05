@@ -1,10 +1,5 @@
 let mainText = document.querySelector('.main__text');
 let description = document.querySelector('.description');
-const apodBtn = document.querySelector('.APOD_btn');
-const neowsBtn = document.querySelector('.NeoWs_btn');
-const eonetBtn = document.querySelector('.EONET_btn');
-const satelliteBtn = document.querySelector('.Satellite_btn');
-const insightBtn = document.querySelector('.InSight_btn');
 const url = 'https://api.nasa.gov/';
 const apiKey = '8MwhBFzZBekhCEakGeorXN0pRZH2K57zgoMGcL5C';
 let typeOfBtn = 0,numLastHandler=0;
@@ -59,38 +54,36 @@ function deleteLastHandler(date) {
     }
 }
 
-apodBtn.addEventListener('click', () => {
-    if (checkAgainClick(1)) {
-        mainText.innerHTML = 'Получите изображение астрономического обьекта на указанную дату:<input type="date" class="input__date" onkeydown="return false">';
-        description.innerHTML = `
-        <div class="description__BlockImg"><img class="description__img" alt="Фото"></div>
-        <div class="description__block"></div>
-        `;
-        let date = document.querySelector('.input__date');
-        date.valueAsDate = new Date();
-        apiApod(date);
-        deleteLastHandler();
-        date.addEventListener('change', () => {
+allMenuBtn.addEventListener('click', (event) => {
+    const action = event.target.classList[1];
+    switch (action) {
+        case 'APOD_btn':
+            if (checkAgainClick(1)) {
+            mainText.innerHTML = 'Получите изображение астрономического обьекта на указанную дату:<input type="date" class="input__date" onkeydown="return false">';
+            description.innerHTML = `
+            <div class="description__BlockImg"><img class="description__img" alt="Фото"></div>
+            <div class="description__block"></div>
+            `;
+            let date = document.querySelector('.input__date');
+            date.valueAsDate = new Date();
             apiApod(date);
-            numLastHandler = 1;
-        });
-        typeOfBtn = 1;
+            deleteLastHandler();
+            date.addEventListener('change', () => {
+                apiApod(date);
+                numLastHandler = 1;
+            });
+            typeOfBtn = 1;
+        }
+            break;
+        case 'NeoWs_btn':
+            break;
+        case 'EONET_btn':
+            break;
+        case 'Satellite':
+            break;
+        case 'InSight_btn':
+            break;
     }
-});
-NeoWsbtn.addEventListener('click', () => {
-    MainText.textContent = 'Получите информацию о близких к земле в указанную дату:';
-});
-
-EONETbtn.addEventListener('click', () => {
-    MainText.textContent = 'Информация о природных бедствиях в указанную дату:';
-});
-
-Satellitebtn.addEventListener('click', () => {
-    MainText.textContent = 'Информация о местоположении и статусе спутников, отслеживаемых NASA, по ID^';
-});
-
-InSightbtn.addEventListener('click', () => {
-    MainText.textContent = 'Информация о погоде на марсе в заданную дату:';
 });
 
 
