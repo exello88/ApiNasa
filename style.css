@@ -31,10 +31,6 @@ main {
     text-align: center;
     margin-top: 8px;
 }
-.Satellite{
-    color: #fff;
-    font-size: 20px;
-}
 .main__text{
     color: #4e4d4d;
     font-size: 25px;
@@ -50,12 +46,20 @@ main {
     border: 1px solid;
     border-color: rgb(128, 128, 128);
 }
+.selectOfType{
+    width: 200px;
+    height: 30px;
+    margin: 0px 0px 0px 460px;
+    border: 1px solid;
+    border-color: rgb(128, 128, 128);
+}
 .description{
     width: 1440px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .description__BlockImg{
     width: 730px;
     height: 500px;
@@ -80,4 +84,42 @@ main {
     text-align: center;
     color: #4e4d4d;
     overflow: scroll;
+}
+
+.description__blockMini{
+    width: 450px;
+    height: 500px;
+    margin: 10px 5px 10px 5px;
+    border: 3px solid;
+    border-color: rgb(128, 128, 128);
+    color: #fff;
+    font-size: 35px;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #4e4d4d;
+    overflow: scroll;
+}
+.descriptionFirstdLine{
+    display: flex;
+    margin: 10px 0px 0px 10px;
+}
+.descriptionSecondLine{
+    display: flex;
+    font-size: 15px;
+    margin: 10px 0px 0px 1190px;
+}
+.textMinMaxInformation{
+    margin: 0px 10px 0px 0px;
+    flex-wrap: wrap;
+}
+.textForCheckbox{
+    margin: 0px 10px 0px 0px;
+    flex-wrap: nowrap;
+}
+.pairedMiniBlocks{
+    width : 650px;
+}
+.soloMiniBlocks{
+    width : 1200px;
+    height : 800px;
 }
