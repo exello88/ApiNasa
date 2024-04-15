@@ -43,6 +43,15 @@
     .pairedMiniBlocks {
         width: 560px;
     }
+    .description__blockMini {
+        width: 390px;
+    }
+    .pagination{
+        width: 1220px;
+    }
+    .loader {
+        width: 1220px
+    }
 }
 
 @media(max-width: 1220px) {
@@ -108,6 +117,17 @@
     .pairedMiniBlocks {
         width: 480px;
     }
+    .description__blockMini {
+        width: 320px;
+        height: 400px;
+        font-size: 25px;
+    }
+    .pagination{
+        width: 990px;
+    }
+    .loader {
+        width: 990px;
+    }
 }
 
 @media(max-width: 990px) {
@@ -143,6 +163,18 @@
         margin: 8px 0px 0px 0px;
         font-size: 15px;
         width: 790px;
+    }
+
+    .menu__block:hover {
+        height: 33px;
+    }
+    
+    .menu__block5:hover {
+        height: 33px;
+    }
+
+    .activeTab {
+        height: 35px;
     }
 
     .input__date {
@@ -188,6 +220,12 @@
     .soloMiniBlocks{
         width : 800px;
         width : 900px;
+    }
+    .pagination{
+        width: 790px;
+    }
+    .loader {
+        width: 790px;
     }
 }
 
@@ -250,7 +288,7 @@
     }
 
     .description__BlockImg {
-        width: 325px;
+        width: 525px;
         height: 260px;
         margin-left: 5px;
         border: 2px solid;
@@ -258,7 +296,7 @@
     }
 
     .description__block {
-        width: 200px;
+        width: 525px;
         height: 260px;
         font-size: 20px;
         border: 2px solid;
@@ -271,9 +309,9 @@
     }
 
     .description__blockMini{
-        width: 250px;
-        height: 335px;
-        font-size: 20px;
+        width: 170px;
+        height: 240px;
+        font-size: 15px;
     }
 
     .pairedMiniBlocks {
@@ -284,6 +322,23 @@
     .soloMiniBlocks{
         width: 530px;
         height: 460px;
+    }
+    .menu__block:hover {
+        height: 33px;
+    }
+    
+    .menu__block5:hover {
+        height: 33px;
+    }
+
+    .activeTab {
+        height: 35px;
+    }
+    .pagination{
+        width: 540px;
+    }
+    .loader {
+        width: 540px;
     }
 }
 
@@ -310,6 +365,7 @@
     .menu {
         width: 340px;
     }
+
 
     .menu__text {
         font-size: 8px;
@@ -348,15 +404,15 @@
     }
 
     .description__BlockImg {
-        width: 190px;
-        height: 140px;
+        width: 325px;
+        height: 190px;
         margin-left: 5px;
         border: 2px solid;
         border-color: rgb(128, 128, 128);
     }
 
     .description__block {
-        width: 135px;
+        width: 325px;
         height: 140px;
         font-size: 10px;
         border: 2px solid;
@@ -378,5 +434,22 @@
         width: 160px;
         height: 230px;
         font-size: 10px;
+    }
+    .menu__block:hover {
+        height: 33px;
+    }
+    
+    .menu__block5:hover {
+        height: 33px;
+    }
+
+    .activeTab {
+        height: 35px;
+    }
+    .pagination{
+        width: 340px;
+    }
+    .loader {
+        width: 340px;
     }
 }
