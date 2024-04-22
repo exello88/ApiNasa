@@ -1,0 +1,455 @@
+@media(max-width: 1420px) {
+    header {
+        width: 1220px;
+    }
+
+    main {
+        width: 1220px;
+    }
+
+    .menu {
+        width: 1220px;
+    }
+
+    .main__text {
+        margin: 8px 0px 0px 0px;
+        width: 1220px;
+    }
+
+    .input__date {
+        margin: 0px 0px 0px 274px;
+    }
+
+    .selectOfType{
+        margin: 0px 0px 0px 274px;
+    }
+
+    .description {
+        width: 1220px;
+    }
+
+    .description__BlockImg {
+        width: 655px;
+    }
+
+    .description__block {
+        width: 545px;
+    }
+
+    .descriptionSecondLine {
+        margin-left: 990px;
+    }
+
+    .pairedMiniBlocks {
+        width: 560px;
+    }
+    .description__blockMini {
+        width: 390px;
+    }
+    .pagination{
+        width: 1220px;
+    }
+    .loader {
+        width: 1220px
+    }
+}
+
+@media(max-width: 1220px) {
+    header {
+        width: 990px;
+    }
+
+    .menu__block {
+        width: 250px;
+    }
+
+    .menu__block5 {
+        width: 250px;
+    }
+
+    main {
+        width: 990px;
+    }
+
+    .menu {
+        width: 990px;
+    }
+    .main__text {
+        margin: 8px 0px 0px 0px;
+        font-size: 15px;
+        width: 990px;
+    }
+
+    .input__date {
+        margin: 0px 0px 0px 274px;
+    }
+
+    .selectOfType{
+        margin: 0px 0px 0px 274px;
+    }
+    
+    .textMinMaxInformation{
+        font-size: 15px;
+    }
+    .textForCheckbox{
+        font-size: 15px;
+    }
+
+    .description {
+        width: 990px;
+    }
+
+    .description__BlockImg {
+        width: 435px;
+        height: 335px;
+    }
+
+    .description__block {
+        width: 334px;
+        height: 335px;
+        font-size: 20px;
+    }
+
+    .descriptionSecondLine {
+        margin-left: 705px;
+    }
+
+    .pairedMiniBlocks {
+        width: 480px;
+    }
+    .description__blockMini {
+        width: 320px;
+        height: 400px;
+        font-size: 25px;
+    }
+    .pagination{
+        width: 990px;
+    }
+    .loader {
+        width: 990px;
+    }
+}
+
+@media(max-width: 990px) {
+    header {
+        width: 790px;
+        height: 30px;
+    }
+
+    .menu__block {
+        width: 200px;
+        height: 30px;
+    }
+
+    .menu__block5 {
+        width: 200px;
+        height: 30px;
+    }
+
+    main {
+        width: 790px;
+    }
+
+    .menu {
+        width: 790px;
+    }
+
+    .menu__text {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .main__text {
+        margin: 8px 0px 0px 0px;
+        font-size: 15px;
+        width: 790px;
+    }
+
+    .menu__block:hover {
+        height: 33px;
+    }
+    
+    .menu__block5:hover {
+        height: 33px;
+    }
+
+    .activeTab {
+        height: 35px;
+    }
+
+    .input__date {
+        margin: 0px 0px 0px 274px;
+    }
+
+    .selectOfType{
+        margin: 0px 0px 0px 274px;
+    }
+
+    .description {
+        width: 790px;
+    }
+
+    .description__BlockImg {
+        width: 435px;
+        height: 335px;
+    }
+
+    .description__block {
+        width: 334px;
+        height: 335px;
+        font-size: 20px;
+    }
+    
+
+    .descriptionSecondLine {
+        margin-left: 560px;
+        font-size: 15px;
+    }
+
+    .description__blockMini{
+        width: 250px;
+        height: 335px;
+        font-size: 20px;
+    }
+
+    .pairedMiniBlocks {
+        width: 380px;
+        height: 335px;
+        font-size: 20px;
+    }
+    .soloMiniBlocks{
+        width : 800px;
+        width : 900px;
+    }
+    .pagination{
+        width: 790px;
+    }
+    .loader {
+        width: 790px;
+    }
+}
+
+@media(max-width: 800px) {
+    header {
+        width: 540px;
+        height: 30px;
+    }
+
+    .menu__block {
+        width: 100px;
+        height: 30px;
+    }
+
+    .menu__block5 {
+        width: 100px;
+        height: 30px;
+    }
+
+    main {
+        width: 540px;
+    }
+
+    .menu {
+        width: 540px;
+    }
+
+    .menu__text {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .main__text {
+        margin: 8px 0px 0px 0px;
+        font-size: 11px;
+        width: 540px;
+    }
+    
+    .textMinMaxInformation{
+        font-size: 11px;
+    }
+    .textForCheckbox{
+        font-size: 11px;
+    }
+
+    .input__date {
+        width: 120px;
+        height: 20px;
+        margin: 0px 0px 0px 85px;
+    }
+
+    .selectOfType{
+        width: 120px;
+        height: 20px;
+        margin: 0px 0px 0px 85px;
+    }
+
+    .description {
+        width: 540px;
+    }
+
+    .description__BlockImg {
+        width: 525px;
+        height: 260px;
+        margin-left: 5px;
+        border: 2px solid;
+        border-color: rgb(128, 128, 128);
+    }
+
+    .description__block {
+        width: 525px;
+        height: 260px;
+        font-size: 20px;
+        border: 2px solid;
+        border-color: rgb(128, 128, 128);
+    }
+    
+
+    .descriptionSecondLine {
+        margin-left: 365px;
+    }
+
+    .description__blockMini{
+        width: 170px;
+        height: 240px;
+        font-size: 15px;
+    }
+
+    .pairedMiniBlocks {
+        width: 260px;
+        height: 335px;
+        font-size: 20px;
+    }
+    .soloMiniBlocks{
+        width: 530px;
+        height: 460px;
+    }
+    .menu__block:hover {
+        height: 33px;
+    }
+    
+    .menu__block5:hover {
+        height: 33px;
+    }
+
+    .activeTab {
+        height: 35px;
+    }
+    .pagination{
+        width: 540px;
+    }
+    .loader {
+        width: 540px;
+    }
+}
+
+@media(max-width: 540px) {
+    header {
+        width: 340px;
+        height: 30px;
+    }
+
+    .menu__block {
+        width: 60px;
+        height: 30px;
+    }
+
+    .menu__block5 {
+        width: 60px;
+        height: 30px;
+    }
+
+    main {
+        width: 340px;
+    }
+
+    .menu {
+        width: 340px;
+    }
+
+
+    .menu__text {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    .main__text {
+        margin: 8px 0px 0px 0px;
+        font-size: 8px;
+        width: 340px;
+    }
+    
+    .textMinMaxInformation{
+        font-size: 8px;
+    }
+    .textForCheckbox{
+        font-size: 8px;
+    }
+
+    .input__date {
+        width: 90px;
+        height: 20px;
+        font-size: 8px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .selectOfType{
+        width: 90px;
+        height: 20px;
+        font-size: 8px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .description {
+        width: 340px;
+    }
+
+    .description__BlockImg {
+        width: 325px;
+        height: 190px;
+        margin-left: 5px;
+        border: 2px solid;
+        border-color: rgb(128, 128, 128);
+    }
+
+    .description__block {
+        width: 325px;
+        height: 140px;
+        font-size: 10px;
+        border: 2px solid;
+        border-color: rgb(128, 128, 128);
+    }
+    
+
+    .descriptionSecondLine {
+        margin-left: 200px;
+    }
+
+    .description__blockMini{
+        width: 330px;
+        height: 300px;
+        font-size: 20px;
+    }
+
+    .pairedMiniBlocks {
+        width: 160px;
+        height: 230px;
+        font-size: 10px;
+    }
+    .menu__block:hover {
+        height: 33px;
+    }
+    
+    .menu__block5:hover {
+        height: 33px;
+    }
+
+    .activeTab {
+        height: 35px;
+    }
+    .pagination{
+        width: 340px;
+    }
+    .loader {
+        width: 340px;
+    }
+}
